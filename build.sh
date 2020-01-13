@@ -9,5 +9,5 @@
       files+=("${f}")
     fi
   done
-  g++ main.cpp -o ../bin/text-adventure.o ${files[*]}
+  g++ -Os -s main.cpp -o ../bin/text-adventure.o ${files[*]}
 )
