@@ -6,7 +6,6 @@
   for f in $(find . -regex ".*\.cpp")
   do 
     if [ $f != ./main.cpp ]; then
-
       files+=("${f}")
     fi
   done
