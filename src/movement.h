@@ -1,4 +1,6 @@
-#ifndef MOVEMENT
-#define MOVEMENT
-#include "movement.cpp"
+#ifndef MOVEMENT_H
+#define MOVEMENT_H
+
+std::string getMap();
+
 #endif

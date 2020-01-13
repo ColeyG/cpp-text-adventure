@@ -1,6 +1,6 @@
 #include <iostream>
-#include "src/movement.h"
-#include "src/inventory.h"
+#include "movement.h"
+#include "inventory.h"
 
 int main()
 {
