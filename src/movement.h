@@ -1,6 +1,11 @@
 #ifndef MOVEMENT_H
 #define MOVEMENT_H
 
-std::string getMap();
+class Movement
+{
+public:
+  Movement();
+  static void showMap();
+};
 
 #endif

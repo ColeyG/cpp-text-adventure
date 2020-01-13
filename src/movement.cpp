@@ -1,6 +1,8 @@
 #include <string>
+#include <iostream>
+#include "movement.h"
 
-std::string getMap()
+void Movement::showMap()
 {
   std::string map;
 
@@ -8,5 +10,5 @@ std::string getMap()
 
   map += "\n===========================\n";
 
-  return map;
+  std::cout << map << "\n";
 }

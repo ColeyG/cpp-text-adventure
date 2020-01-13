@@ -8,4 +8,4 @@ public:
   void getInventory();
 };
 
-#endif /* Inventory_H */
+#endif

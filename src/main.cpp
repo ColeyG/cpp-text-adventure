@@ -4,7 +4,7 @@
 
 int main()
 {
-  std::cout << getMap() << std::endl;
+  Movement::showMap();
   Inventory charinv;
   charinv.getInventory();
   return 0;
