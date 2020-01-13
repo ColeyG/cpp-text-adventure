@@ -3,10 +3,20 @@
 
 Inventory::Inventory()
 {
-  std::cout << "Constructor\n";
+  Inventory::items.push_back("Raspberries");
+  Inventory::items.push_back("Rope");
+};
+
+void Inventory::add(std::string item)
+{
+  std::cout << "Added " << item << " to inventory";
 };
 
 void Inventory::getInventory()
 {
-  std::cout << "Some Method\n";
+  std::cout << "In your inventory:\n";
+  for (int i = 0; i < Inventory::items.size(); ++i)
+  {
+    std::cout << (i + 1) << " - " << Inventory::items[i] << '\n';
+  }
 };

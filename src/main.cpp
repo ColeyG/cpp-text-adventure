@@ -1,11 +1,13 @@
 #include <iostream>
+#include "controls.h"
 #include "movement.h"
 #include "inventory.h"
 
 int main()
 {
-  Movement::showMap();
+  // Movement::showMap();
   Inventory charinv;
-  charinv.getInventory();
+  Controls controller(charinv);
+  controller.controlLoop();
   return 0;
 }
