@@ -5,9 +5,9 @@
 
 int main()
 {
-  // Movement::showMap();
+  Movement movement;
   Inventory charinv;
-  Controls controller(charinv);
+  Controls controller(charinv, movement);
   controller.controlLoop();
   return 0;
 }

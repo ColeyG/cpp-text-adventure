@@ -2,8 +2,9 @@
 #include "controls.h"
 #include "helpers.h"
 
-Controls::Controls(Inventory inventory)
+Controls::Controls(Inventory inventory, Movement movement)
 {
+  Controls::movement = movement;
   Controls::inventory = inventory;
   Controls::actions.push_back("inv");
   Controls::actions.push_back("map");
@@ -44,5 +45,9 @@ void Controls::actionExecute(std::string input)
   if (input == "inv")
   {
     Controls::inventory.getInventory();
+  }
+  if (input == "map")
+  {
+    Controls::movement.showMap();
   }
 }

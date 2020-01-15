@@ -2,6 +2,10 @@
 #include <iostream>
 #include "movement.h"
 
+Movement::Movement()
+{
+}
+
 void Movement::showMap()
 {
   std::string map;

@@ -5,7 +5,7 @@ class Movement
 {
 public:
   Movement();
-  static void showMap();
+  void showMap();
 };
 
 #endif
