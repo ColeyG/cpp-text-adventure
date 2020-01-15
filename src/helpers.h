@@ -9,6 +9,7 @@ class Helpers
 {
 public:
   static bool isInVector(std::vector<std::string> vector, std::string string);
+  static void myToLower(std::string &string);
 };
 
 #endif
