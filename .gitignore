@@ -1,2 +1,4 @@
+.idea
 .vscode
-bin/*.o
+bin
+cmake-build-debug

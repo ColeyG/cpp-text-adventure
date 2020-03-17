@@ -1,7 +1,7 @@
 #include <iostream>
-#include "controls.h"
-#include "movement.h"
-#include "inventory.h"
+#include "src/controls.h"
+#include "src/movement.h"
+#include "src/inventory.h"
 
 int main()
 {
